@@ -1,3 +1,5 @@
+# Do not forget to change the specified file paths to your own. This script was tested on Ubuntu 24.04.1 LTS.
+
 # Flowise Backup Service
 
 This service is a system that automatically backs up the Flowise application and uploads it to Google Drive. It performs backups three times a day (09:00, 13:00, 21:00).
