@@ -103,3 +103,6 @@ sudo systemctl list-timers --all
 
 ### Log Control
 sudo journalctl -u flowise-backup.service
+
+![image](https://github.com/user-attachments/assets/9e876688-63ea-420b-99ae-6eea7f9d4045)
+![image](https://github.com/user-attachments/assets/c2730812-431d-48e3-8b18-dc39620f02fa)
