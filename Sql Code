@@ -1,0 +1,12 @@
+create table backup_logs (
+    id uuid default gen_random_uuid() primary key,
+    backup_date timestamp with time zone default timezone('UTC'::text, now()) not null,
+    file_name text not null,
+    drive_link text not null,
+    status text not null,
+    error_message text,
+    created_at timestamp with time zone default timezone('UTC'::text, now()) not null
+);
+
+-- Disable RLS
+alter table backup_logs disable row level security;
